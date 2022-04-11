@@ -1,14 +1,9 @@
 import React from 'react';
-import {
-  Text,
-  View,
-} from 'react-native';
+import NavContainer from './src/routes';
 
 function App() {
   return (
-    <View>
-      <Text>Olá</Text>
-    </View>
+    <NavContainer />
   )
 
 }
